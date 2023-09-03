@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --sky-green:#49D6B7;
+}
+.umr-countainer{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+.impressumTitle{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid var(--sky-green);
+}
+.box{
+    padding: 10px 0px;
+}
+.box p{
+    padding-bottom: 2px;
+}
+.heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+.Impressum p{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .termsTitle{
+        font-size: 22px;
+    }
+  }

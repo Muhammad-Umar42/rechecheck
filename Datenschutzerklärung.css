@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --sky-green:#49D6B7;
+}
+.umr-countainer{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+.protectionTitle{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    margin-bottom: 17px;
+    border-bottom: 1px solid var(--sky-green);
+}
+.umr-countainer li{
+    padding-bottom: 24px;
+    padding-top: 12px;
+  }
+  .protection li{
+    font-size: 18px;
+  }
+  .protection h3{
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+@media screen and (max-width: 768px) {
+    .termsTitle{
+        font-size: 22px;
+    }
+  }
